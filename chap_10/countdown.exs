@@ -16,7 +16,7 @@ defmodule Countdown do
         60 - s - 1
       end,
 
-      fn ->
+      fn
         0 ->
           {:halt, 0}
 
