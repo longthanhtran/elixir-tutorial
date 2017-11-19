@@ -5,7 +5,7 @@ defmodule Chop do
     _guess(actual, guess, range)
   end
 
-  defp _guess(actual, actual, _), do:
+  defp _guess(actual, actual, _), do: # a typical private function starts with _
     IO.puts "Yes, it is #{actual}"
 
   defp _guess(actual, guess, _low..high)
